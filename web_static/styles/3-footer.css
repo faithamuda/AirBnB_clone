@@ -10,6 +10,6 @@ footer {
   display: flex;
   height: 60px;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   width: 100%;
 }

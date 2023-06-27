@@ -21,7 +21,7 @@
   float: right;
   font-size: 18px;
   height: 48px;
-  margin: 12px 30px;
+  margin: 11px 30px;
   width: 20%;
 }
 
@@ -59,7 +59,12 @@
   position: absolute;
   width: 100%;
 }
-
+div.popover {
+  margin-right: -4px;
+}
+ul.popover {
+  margin-left: -4px;
+}
 /* Locations and amenities popover hover */
 .filters .locations:hover .popover,
 .filters .amenities:hover .popover {
